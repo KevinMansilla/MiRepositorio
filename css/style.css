@@ -1,0 +1,95 @@
+.body-3 {
+  background-color: #00daf7;
+}
+.body-3 h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #FFF;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Coda Caption", sans-serif;
+}
+.body-3 p {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #FFF;
+  text-align: center;
+}
+
+.section-1 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.section-1 .primera-fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+  width: 250px;
+  border: 2px;
+}
+.section-1 .seccion-dos {
+  color: #FFF;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+.section-1 .procesador:hover {
+  transform: translate(10px, 20px);
+  transition: 2s;
+}
+.section-1 .placas:hover {
+  transform: translate(10px, 20px);
+  transition: 2s;
+}
+.section-1 .Mother:hover {
+  transform: translate(10px, 20px);
+  transition: 2s;
+}
+.section-1 .Fuentes:hover {
+  transform: translate(10px, 20px);
+  transition: 2s;
+}
+
+.header {
+  background-color: linear-gradient(to top, #00daf7, #FFF);
+  height: 70px;
+}
+.header .nav {
+  text-align: center;
+  border: 1px solid #000;
+  width: 10pxpx;
+  padding: 40px;
+}
+.header .nav-header {
+  word-spacing: 30px;
+  border: 1px solid #FFF;
+  font-weight: bold;
+}
+.header .nav-header:hover {
+  color: #FFF;
+  font-weight: bold;
+}
+.header nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Coda Caption", sans-serif;
+  font-weight: bold;
+}
+.header .menu-header, .header .nav-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #000;
+}
+
+.footer {
+  background-color: linear-gradient(to top, #FFF, #00daf7);
+}
+
+/*# sourceMappingURL=style.css.map */
