@@ -1,7 +1,7 @@
 header {
     height: 70px;
     text-align: start;
-    background: linear-gradient(to top, #00daf7, #fff)
+    
 }
 nav {
     text-align: center;
@@ -13,7 +13,7 @@ nav {
     word-spacing: 30px;
     border: 1px solid white;
     font-weight: bold;
-    
+    background-color: #fff;
 }
 
 .nav-header:hover {
@@ -52,7 +52,7 @@ header h1 {
 }
 
 .cuerpo {
-    background-color:#00daf7 ;
+    background-color: #F8F9F9;
 }
 
 h1 {
@@ -61,14 +61,14 @@ h1 {
 }
 
 .body-2 {
- background-color: #00daf7;
+ background-color: #F8F9F9;
  box-sizing: border-box;
  width: 100%;
 
 }
 
 .body-3 {
-    background-color: #00daf7;
+    background-color: #F8F9F9;
     margin-top: 250px;
     box-sizing: border-box;
 }
@@ -84,21 +84,21 @@ h1 {
 
 
 p {
-    color: #FFF;
+    color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer {
     height: 200px;
-    background: linear-gradient(to top, rgb(245, 241, 241), #00daf7);
+    background-color: #fff;
     margin-top: 100px;
 }
 
 h2 {
     font-size: 30px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Coda Caption', sans-serif;
 }
@@ -123,12 +123,12 @@ ul {
 }
 
 h2 {
-    color: #fff;
+    color: #000;
 }
 
 .texto {
-    color: #fff;
-    background-color: #00daf7;
+    color: #000;
+    background-color: #F8F9F9;
     margin-block-end: auto;
 }
 
@@ -170,11 +170,11 @@ h2 {
 
 @media only screen and (min-width: 961px) {
     body{
-        background-color: #00daf7;;
+        background-color:#F8F9F9;
     }
     .border{
         border: 4px solid black;
-        background-color: #00daf7;
+        background-color: #F8F9F9;
     }
 
 }
