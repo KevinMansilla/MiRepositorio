@@ -220,3 +220,51 @@ h2 {
     border-radius: 3px;
 }
 
+.elementor-row {
+    width: 100%; 
+    display: flex;
+}
+
+.columna-2 {
+    display: flex;
+    margin-left: 14%;
+}
+
+.calidad-superior {
+    margin-right: 40%;
+    font-size: 20px;
+}
+ 
+.calidad {
+    margin-left: 13%;
+}
+
+.imagen-calidad {
+    margin-left: 17%;
+}
+
+.imagen-oferta {
+    margin-left: 35%
+}
+
+.texto-oferta {
+    margin-left: 25%
+}
+
+.imagen-envios {
+    margin-left: 40%
+}
+
+.texto-envios {
+    margin-left: 40%
+}
+
+.ayuda {
+    margin-bottom: 40px; 
+    font-size: 15px; 
+    color: #000;
+}
+
+.font-monospace {
+    margin-top: 15%;
+}
