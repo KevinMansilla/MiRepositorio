@@ -1,270 +1,394 @@
-header {
-    height: 70px;
-    text-align: start;
-    
-}
-nav {
-    text-align: center;
-    border: 1px solid #000;
-    width: 10pxpx; padding: 40px;
-}
-
-.nav-header {
-    word-spacing: 30px;
-    border: 1px solid white;
-    font-weight: bold;
-    background-color: #fff;
-}
-
-.nav-header:hover {
-    color: white;
-    font-weight: bold;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    letter-spacing: 2px;
-    font-family: 'Bodoni Moda', serif;
-    font-family: 'Coda Caption', sans-serif;
-    font-weight: bold;
-   
-}
-.menu-header {
-    color: black;
-    
-}
-
-.menu-header, .nav-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #000;
-
-}
-
-header h1 {
-    width: 80px; padding: 40px;
-    border-radius: 5px;
-    font-size: 30px;
-    font-family: 'Coda Caption', sans-serif;
-    font-style: italic;
-    text-transform: uppercase;
-}
-
-.cuerpo {
-    background-color: #F8F9F9;
-}
-
-h1 {
-    animation-duration: 2s;
-    animation-name: aparecer;
-}
-
-.body-2 {
- background-color: #F8F9F9;
- box-sizing: border-box;
- width: 100%;
-
-}
-
-.body-3 {
-    background-color: #F8F9F9;
-    margin-top: 250px;
-    box-sizing: border-box;
-}
-
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-p {
-    color: #000;
-    text-align: center;
-    font-size: 20px;
-}
-
-footer {
-    height: 200px;
-    background-color: #fff;
-    margin-top: 100px;
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    color: #000;
-    font-family: 'Bodoni Moda', serif;
-    font-family: 'Coda Caption', sans-serif;
-}
-footer a {
-    height: 60px; padding: 50px;
-}
-
-footer i {
-    color: #000;
-}
-
-iframe {
-    margin: 10px;
-    padding-left: 5px;
-    border: 3px;
-    position: static;
-}
-ul {
-    font-size: 25px;
-    color: #000;
-    padding-right: 150px;
-}
-
-h2 {
-    color: #000;
-}
-
-.texto {
-    color: #000;
-    background-color: #F8F9F9;
-    margin-block-end: auto;
-}
-
-.mapa {
-    text-align: center;
-    margin-top: 150px;
-}
-
 * {
-    margin: 0;
     padding: 0;
-}
-
-/*Mobile */
-@media only screen and (max-width: 400px) {
-    body {
-        background-color: rgb(115, 234, 255);
-        }
-        .border{
-            border: 4px solid black;
-            background-color: #00daf7;
-        }
-}
-
-/* Tablet */
-
-@media only screen and (min-width: 401px) and (max-width:960px) {
-    body {
-        background-color: rgb(115, 234, 255);   
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .border {
-        border: 4px solid black;
-        background-color: rgb(115, 222, 255);
-    }
-}
-
-/* Desktop */
-
-@media only screen and (min-width: 961px) {
-    body{
-        background-color:#F8F9F9;
-    }
-    .border{
-        border: 4px solid black;
-        background-color: #F8F9F9;
-    }
-
-}
-
-.formulario {
-    text-align: center;
-    background-color: #f6f7f8;
-    border: 1px solid #d6d9dc;
-    border-radius: 3px;
-    width: 80%;
-    margin: 40px 0;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.formulario h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-
-}
-
-.Contact {
-    margin-top: 15%;
-}
-.formulario-1 {
-    background-color: #f6f7f8;
-    border: 1px solid #d6d9dc;
-    border-radius: 3px;
-    width: 80%;
-    padding: 50px;
-    margin: 0 0 40px 0;
-}
-
-.buscador {
-    border-style: none;
-    margin-bottom: 20px;
-    background-color: rgb(46, 168, 199);
-    text-align: center;
-    width: 40vw;
-    font-size: 20px;
-    border-radius: 3px;
-}
-
-.elementor-row {
-    width: 100%; 
-    display: flex;
-}
-
-.columna-2 {
-    display: flex;
-    margin-left: 14%;
-}
-
-.calidad-superior {
-    margin-right: 40%;
-    font-size: 20px;
-}
- 
-.calidad {
-    margin-left: 13%;
-}
-
-.imagen-calidad {
-    margin-left: 17%;
-}
-
-.imagen-oferta {
-    margin-left: 35%
-}
-
-.texto-oferta {
-    margin-left: 25%
-}
-
-.imagen-envios {
-    margin-left: 40%
-}
-
-.texto-envios {
-    margin-left: 40%
-}
-
-.ayuda {
-    margin-bottom: 40px; 
-    font-size: 15px; 
-    color: #000;
-}
-
-.font-monospace {
-    margin-top: 15%;
-}
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  .contenedor {
+      width: 70%; 
+      max-width: 1000px;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  
+  #navbarNav {
+  justify-content: flex-end;
+  }
+  
+  .menu-header {
+      color: black;
+      
+  }
+  
+  .menu-header, .nav-header {
+      font-family: 'Bodoni Moda', serif;
+      color: #000;
+  
+  }
+  
+  .cuerpo {
+      background-color: #eeeeee;
+  }
+  
+  h1 {
+      animation-duration: 2s;
+      animation-name: aparecer;
+  }
+  
+  .body-2 {
+   background-color: #eeeeee;
+   box-sizing: border-box;
+   width: 100%;
+  
+  }
+  
+  .body-3 {
+      background-color: #eeeeee;
+      box-sizing: border-box;
+  }
+  
+  @keyframes aparecer {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  
+  p {
+      color: #000;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+  }
+  
+  footer {
+      clear: both;
+      float: left;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px;
+      background-color: #fff;
+      margin-top: 20px;
+  }
+  
+  h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #000;
+      font-family: 'Bodoni Moda', serif;
+  
+  }
+  footer a {
+      height: 60px; padding: 50px;
+  }
+  
+  footer i {
+      color: #000;
+      ;
+  }
+  
+  #trabajo {
+      margin-top: 10%;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  iframe {
+      margin: 10px;
+      padding-left: 5px;
+      border: 3px;
+      position: static;
+  }
+  ul {
+      font-size: 25px;
+      color: #000;
+      padding-right: 150px;
+  }
+  
+  h2 {
+      color: #000;
+      padding: 30px;
+  }
+  
+  .preguntas-frecuentes {
+      margin-top: 3%;
+      width: 100%;
+      
+      text-align: center;
+  }
+  .card-h5 {
+      display: flex;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 50px;
+      font-family: 'Bodoni Moda', serif;
+      margin-top: 25%;
+  }
+  
+  .card-text {
+      font-size:  'Bodoni Moda', serif;
+      font-size: 25px;
+      font-weight: 400;
+      color: #000;
+  }
+  
+  .card-p{
+      font-size:  'Bodoni Moda', serif;
+      font-size: 25px;
+      font-weight: 400;
+      color: #fff;
+  }
+  
+  .texto {
+      color: #000;
+      margin-block-end: auto;
+      margin-top: 2%;
+  }
+  
+  .mapa {
+      text-align: center;
+      margin: auto;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      border-radius: 7px;
+  }
+  
+  .formulario-contacto {
+      width: 450px;
+      margin: auto;
+      background: rgba(0,0,0,0.2);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin-top: 20px;
+      border-radius: 7px;
+  }
+  
+  h3 {
+      color: #000;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-family: 'Bodoni Moda', serif;
+  }
+  
+  input, textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 15px;
+  }
+  
+  .submit-buscador {
+      width: auto;
+  }
+  
+  textarea{
+      min-height: 100px;
+      max-height: 200px;
+      max-width: 100%;
+  }
+  
+  #boton {
+      background: rgb(115, 222, 255);
+      color: #000;
+      padding: 20px;
+  }
+  
+  #boton:hover {
+      cursor: pointer;
+  }
+  
+  .columna-contacto {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  
+  /*Mobile */
+  @media only screen and (max-width: 400px) {
+      body {
+          background-color: #F8F9F9;
+          }
+          .border{
+              border: 4px solid black;
+              background-color: #F8F9F9;
+          }
+  }
+  
+  
+  /* Tablet */
+  
+  @media only screen and (min-width: 401px) and (max-width:960px) {
+      body {
+          background-color: #F8F9F9;   
+          grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+          border: 4px solid black;
+          background-color: #F8F9F9;
+      }
+  }
+  
+  /* Desktop */
+  
+  @media only screen and (max-width: 800px) {
+      body{
+          background-color:#F8F9F9;
+      }
+      .border{
+          border: 4px solid black;
+          background-color: #F8F9F9;
+      }
+  
+  }
+  
+  .formulario {
+      text-align: center;
+      background-color: #f6f7f8;
+      border: 1px solid #d6d9dc;
+      border-radius: 3px;
+      width: 80%;
+      margin: 40px 0;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .formulario h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+  
+  }
+  
+  .card-nosotros {
+      margin: 10px 10px 10px 10px;
+      padding: 30px 30px 30px 30px;
+      background-color: #ffffff;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 15%)
+  }
+  
+  .align-items-start {
+      padding: 20px;
+  }
+  
+  .align-items-center {
+      padding: 20px;
+  }
+  
+  .align-items-end {
+      padding: 20px;
+  }
+  
+  .i-nosotros {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .h4-nosotros {
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+  }
+  .formulario-1 {
+      background-color: #f6f7f8;
+      border: 1px solid #d6d9dc;
+      border-radius: 3px;
+      width: 80%;
+      padding: 50px;
+      margin: 0 0 40px 0;
+  }
+  
+  .buscador {
+      margin-bottom: 20px;
+      background-color: #fff;
+      text-align: center;
+      width: 40vw;
+      font-size: 20px;
+      border-radius: 6px;
+  }
+  
+  .elementor-row {
+      width: 100%; 
+      display: flex;
+  }
+  
+  .columna-2 {
+      display: flex;
+      margin-left: 14%;
+  }
+  
+  .cuerpo-producto {
+      background: #eeeeee;
+  }
+  
+  .calidad-superior {
+      margin-right: 40%;
+      font-size: 20px;
+  }
+   
+  .calidad {
+      margin-left: 13%;
+  }
+  
+  .imagen-calidad {
+      margin-left: 17%;
+  }
+  
+  .imagen-oferta {
+      margin-left: 35%
+  }
+  
+  .texto-oferta {
+      margin-left: 25%
+  }
+  
+  .imagen-envios {
+      margin-left: 40%
+  }
+  
+  .texto-envios {
+      margin-left: 40%
+  }
+  
+  .ayuda {
+      margin-bottom: 40px; 
+      font-size: 40px; 
+      color: #000;
+      display: flex;
+      justify-content: center;
+      font-family: 'Bodoni Moda', serif;
+  }
+  
+  .producto-1{
+      text-align: center;
+  }
+  
+  .btn-primary {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .imagen-3 {
+      height: 55%
+  }
+  
+  .card{
+      height: 26rem;
+  }
+  
+  .element-nosotros {
+      margin-top: 50%;
+  }
+  
+  .card-img-top{
+      height: 55%;
+  }
